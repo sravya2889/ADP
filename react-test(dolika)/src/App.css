@@ -1,0 +1,35 @@
+.App {
+  padding: 20px;
+}
+.search-section {
+  margin-bottom: 10px;
+}
+.search-section > div {
+  width: 100%;
+}
+.search-section > div input {
+  font-size: 14px;
+    padding: 10px;
+}
+.accordion-section .MuiAccordion-root {
+  margin-bottom: 10px;
+  text-align: center;
+  border: 1px solid #b9b4b4;
+}
+.accordion-section .MuiAccordion-root.Mui-expanded {
+  margin: 0 0 10px 0;
+}
+.accordion-section .MuiAccordion-root > div {
+  min-height: auto;
+}
+.accordion-section .MuiAccordion-root > div .MuiAccordionSummary-content {
+  margin: 10px 0;
+}
+.accordion-section .MuiAccordion-root > div .MuiAccordionSummary-content span {
+  width: 100%;
+}
+.accordion-section .MuiAccordion-root .MuiCollapse-wrapper .MuiAccordionDetails-root {
+  background-color: #dedede;
+  padding: 20px;
+  border-top: 1px solid #b9b4b4;
+}
